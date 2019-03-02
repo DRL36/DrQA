@@ -394,6 +394,7 @@ class DocReader(object):
     # --------------------------------------------------------------------------
 
     def save(self, filename):
+        print(filename)
         if self.parallel:
             network = self.network.module
         else:
